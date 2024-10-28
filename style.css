@@ -1,0 +1,103 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  width: 100vw;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+#car1{
+  font-size: 24px;
+  font-weight: bold;
+  font-family:"DynaPuff", system-ui;
+/*     google font */
+  color: #0b77ba;
+}
+#car2{
+  font-size: 20px;
+  color: #17a3bf;
+  font-weight: bold;
+}
+#title1{
+  line-height: 12px;
+/*   cách viết khoảng cách 2 hang */
+}
+#title2{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 24px;
+}
+a{
+  margin: 12px;
+  color: #01151a;
+}
+
+.image-container{
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+#image-container{
+  position: relative;
+}
+#front{
+  font-size: 30px;
+ align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 500px;
+  font-family:"Roboto Mono", serif;
+}
+#phone{
+  font-size: 22px;
+  position: relative;
+  bottom: 500px;
+  display: flex;
+  justify-content: center;
+  color: #d9a518;
+}
+#content{
+  font-family: "Montserrat", sans-serif;
+  color: #07226e;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom:  200px;
+  padding-left: 14px;
+}
+footer{
+  font-size: 24px;
+  position: relative;
+  bottom: 200px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+}
+#price{
+  color: #f51707;
+}
+#left{
+  font-size: 16px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  
+}
+#contact{
+  display: flex;
+}
+#mail{
+  margin-bottom:18px;
+}
+}
+#rightbox{
+  border: 1px solid black;
+  width: 50%;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
