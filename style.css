@@ -24,7 +24,7 @@ header{
 }
 #title2{
   display: flex;
-  justify-content: flex-end;
+  padding-right: 42px;
   padding-top: 24px;
 }
 a{
